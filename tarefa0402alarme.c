@@ -6,7 +6,7 @@
 #define LED_RED 12      // LED vermelho no pino 12
 #define LED_GREEN 13    // LED verde no pino 13
 #define BUTTON 5        // Botão no pino 5
-#define DEBOUNCE_DELAY 50 // debounce 50 milissegundos
+#define DEBOUNCE_DELAY 50 // Debounce de 50ms
 
 // Estados dos LEDs
 typedef enum {
