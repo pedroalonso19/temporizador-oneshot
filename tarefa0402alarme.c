@@ -73,7 +73,7 @@ int main() {
                 add_alarm_in_ms(3000, turn_off_callback, NULL, false);
             }
         }
-    sleep_ms(10);
+    sleep_ms(10); // Evitar perda de desempenho
     }
 
     return 0;
